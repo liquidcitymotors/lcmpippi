@@ -1,4 +1,6 @@
 renders/*.wav
 renders/*.png
+renders/*.asd
+renders/*.mp3
 
 .DS_Store
