@@ -1,0 +1,4 @@
+renders/*.wav
+renders/*.png
+
+.DS_Store
