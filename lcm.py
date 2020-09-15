@@ -7,7 +7,7 @@ import time
 import math
 
 def spectrogram(out, name='untitled'):
-	out_path = 'scripts/renders/' + name
+	out_path = 'scripts/lcm/renders/' + name
 	out.write(out_path+'.wav')
 	os.system('sox '+out_path+'.wav -n spectrogram -o '+out_path+'.png')
 	os.system('open '+out_path+'.png')
