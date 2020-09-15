@@ -1,1 +1,1 @@
-Abstractions and scripts for pippi.world
+Abstractions and scripts for [pippi](https://pippi.world)
