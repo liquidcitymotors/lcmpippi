@@ -43,9 +43,9 @@ def match_length(snd1, snd2):
 	return snd1, snd2
 
 def dub_mono(snd1, snd2, pos):
-	if len(snd1) > pos:
-		snd1 = snd1.cut(0, pos)
-		snd1.adsr(0, 0, 1, .03)
+	# if snd1.dur > pos:
+	snd1 = snd1.cut(0, pos)
+	snd1.adsr(0, 0, 1, .03)
 	snd1.dub(snd2, pos)
 	return snd1
 
